@@ -1,0 +1,53 @@
+.service-section-main-container {
+  margin-bottom: 30px;
+}
+
+.insurance-service-section-main-header {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #484848;
+  font-size: 20px;
+}
+
+.insurance-services-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  gap: 10px;
+}
+
+.insurance-service-card {
+  display: flex;
+  align-items: center;
+  padding: 17px 19px;
+  gap: 17px;
+  background-color: #e0f1f4;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.insurance-service-card img {
+  width: 65px;
+  height: 75px;
+  margin-bottom: 10px;
+}
+
+.insurance-service-card-heading {
+  font-size: 15px;
+  margin: 2px 0;
+  color: #484848;
+  font-weight: 800;
+}
+
+.insurance-service-card-sub-text {
+  font-size: 12px;
+  margin: 2px 0;
+  color: #484848;
+}
+
+.insurance-service-card-lock-icon-container {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}

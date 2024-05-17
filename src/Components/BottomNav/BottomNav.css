@@ -1,0 +1,27 @@
+.bottom-nav {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #fff;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+.nav-item i {
+  font-size: 20px;
+}
+
+.nav-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #484848;
+}

@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.header-clock {
+  color: #484848;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.header-Icon-container {
+  display: flex;
+  gap: 5px;
+}
